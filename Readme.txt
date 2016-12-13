@@ -5,7 +5,7 @@ sudo apt-get install python-dev python-setuptools swig -y
 git clone --recursive https://github.com/DaniyalGeek/wiringop-python.git
 
 # build C and install both Wiring Pi C library and Python
-cd WiringPi-Python-OP
+cd wiringop-python
 cd WiringPi/
 sudo ./build
 cd ..
